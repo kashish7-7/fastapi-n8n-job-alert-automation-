@@ -204,7 +204,7 @@ No spam. Only meaningful alerts.
 
 ---
 
-##  n8n Workflow Screenshots
+##  n8n Workflow screenshot
 
 <img width="1234" height="503" alt="Screenshot 2025-12-30 174541" src="https://github.com/user-attachments/assets/1c513df0-0dda-4444-b7bf-5c170a072fe5" />
 
@@ -216,6 +216,7 @@ This project demonstrates how **FastAPI and n8n can work together** to build a p
 ✨ *Built with curiosity, automation, and clean design.*
 
 ----
+
 
 
 
