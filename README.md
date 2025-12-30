@@ -26,7 +26,7 @@ This project automates the entire process by:
 
 ---
 
-##  High-Level Architecture
+##  Architecture
 
 Resume Upload (FastAPI)
         ↓
@@ -216,6 +216,7 @@ This project demonstrates how **FastAPI and n8n can work together** to build a p
 ✨ *Built with curiosity, automation, and clean design.*
 
 ----
+
 
 
 
