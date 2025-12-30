@@ -118,7 +118,7 @@ This separation ensures **clarity, reliability, and scalability**.
 
 ##  Branch 1: Resume Update Branch (Event-Driven)
 
-📌 **Triggered by:** FastAPI Webhook
+ **Triggered by:** FastAPI Webhook
 
 
 Webhook → Save Resume to Static Data
@@ -140,7 +140,7 @@ Webhook → Save Resume to Static Data
 
 ##  Branch 2: Job Matching Branch (Time-Driven)
 
-📌 **Triggered by:** n8n Schedule Trigger
+ **Triggered by:** n8n Schedule Trigger
 
 Schedule → Load Resume → Fetch Jobs → Match Skills → IF → Send Alert
 
@@ -213,9 +213,10 @@ No spam. Only meaningful alerts.
 This project demonstrates how **FastAPI and n8n can work together** to build a powerful automation system that feels intelligent, efficient, and practical.
 
 
-✨ *Built with curiosity, automation, and clean design.*
+ *Built with curiosity, automation, and clean design.*
 
 ----
+
 
 
 
