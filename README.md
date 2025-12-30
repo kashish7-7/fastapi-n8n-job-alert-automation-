@@ -43,7 +43,7 @@ Skill Matching
 Job Alerts
 
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * **FastAPI** – Resume upload & parsing service
 * **n8n** – Automation, scheduling, logic orchestration
@@ -208,7 +208,7 @@ No spam. Only meaningful alerts.
 
 <img width="1234" height="503" alt="Screenshot 2025-12-30 174541" src="https://github.com/user-attachments/assets/1c513df0-0dda-4444-b7bf-5c170a072fe5" />
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project demonstrates how **FastAPI and n8n can work together** to build a powerful automation system that feels intelligent, efficient, and practical.
 
@@ -216,5 +216,6 @@ This project demonstrates how **FastAPI and n8n can work together** to build a p
 ✨ *Built with curiosity, automation, and clean design.*
 
 ----
+
 
 
