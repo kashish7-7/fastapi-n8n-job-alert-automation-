@@ -5,7 +5,7 @@ An end-to-end **resume-aware job alert system** that automatically parses resume
 
 ---
 
-## 🌟 Why this project?
+##  Why this project?
 
 Searching for jobs manually is repetitive and inefficient.
 This project automates the entire process by:
@@ -15,7 +15,7 @@ This project automates the entire process by:
 * Matching jobs based on **skills, education, and experience**
 * Notifying you **only when a relevant job appears**
 
-## ✅ Key Features
+##  Key Features
 
 * Resume-aware automation
 * Real-time job alerts
@@ -26,7 +26,7 @@ This project automates the entire process by:
 
 ---
 
-## 🧠 High-Level Architecture
+##  High-Level Architecture
 
 Resume Upload (FastAPI)
         ↓
@@ -54,7 +54,7 @@ Job Alerts
 
 
 
-## 📂 Project Structure
+##  Project Structure
 
 fastapi-n8n-job-alert-automation/
 │
@@ -66,7 +66,7 @@ fastapi-n8n-job-alert-automation/
     └── workflow.json       # Exported n8n workflow
 
 
-## 🔥 What FastAPI Does
+##  What FastAPI Does
 
 FastAPI acts as the **entry point** of the system.
 
@@ -90,7 +90,7 @@ FastAPI acts as the **entry point** of the system.
 
 ---
 
-## 🔗 How FastAPI Connects to n8n
+##  How FastAPI Connects to n8n
 
 FastAPI sends parsed resume data to n8n using an **HTTP POST Webhook**.
 
@@ -108,7 +108,7 @@ This webhook **triggers the n8n workflow automatically**.
 
 ---
 
-## 🧩 n8n Workflow Overview
+##  n8n Workflow Overview
 
 The n8n workflow is intentionally designed with **two independent branches** inside a single workflow.
 
@@ -116,7 +116,7 @@ This separation ensures **clarity, reliability, and scalability**.
 
 ---
 
-## 🌿 Branch 1: Resume Update Branch (Event-Driven)
+##  Branch 1: Resume Update Branch (Event-Driven)
 
 📌 **Triggered by:** FastAPI Webhook
 
@@ -138,7 +138,7 @@ Webhook → Save Resume to Static Data
 * Keeps resume handling clean and isolated
 
 
-## ⏱️ Branch 2: Job Matching Branch (Time-Driven)
+##  Branch 2: Job Matching Branch (Time-Driven)
 
 📌 **Triggered by:** n8n Schedule Trigger
 
@@ -162,7 +162,7 @@ Schedule → Load Resume → Fetch Jobs → Match Skills → IF → Send Alert
 
 ---
 
-## 🧠 Why Two Branches Are Important
+##  Why Two Branches Are Important
 
 | Resume Updates  | Job Scanning          |
 | --------------- | --------------------- |
@@ -175,7 +175,7 @@ This design mirrors **real-world production systems**.
 
 ---
 
-## 🧪 Skill Matching Logic (Simplified)
+##  Skill Matching Logic (Simplified)
 
 For each job:
 
@@ -188,7 +188,7 @@ Only jobs that pass the criteria move forward.
 
 ---
 
-## 📩 Notifications
+##  Notifications
 
 When a job matches:
 
@@ -204,7 +204,7 @@ No spam. Only meaningful alerts.
 
 ---
 
-## 🖼️ n8n Workflow Screenshots
+##  n8n Workflow Screenshots
 
 <img width="1234" height="503" alt="Screenshot 2025-12-30 174541" src="https://github.com/user-attachments/assets/1c513df0-0dda-4444-b7bf-5c170a072fe5" />
 
@@ -216,4 +216,5 @@ This project demonstrates how **FastAPI and n8n can work together** to build a p
 ✨ *Built with curiosity, automation, and clean design.*
 
 ----
+
 
